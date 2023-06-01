@@ -179,7 +179,7 @@ When viewing a Markdown file, you can click  at the top of the file to disable M
 
 <!-- Disabling Markdown rendering enables you to use source view features, such as line linking, which is not possible when viewing rendered Markdown files. -->
 
-… [More](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)
+… [Disabling Markdown rendering](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)
 
 
 ## Further reading
