@@ -1,5 +1,36 @@
 [Origin: Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+## Table of Contents
+
+- [Headings](#headings)
+- [Styling text](#styling-text)
+- [Quoting text](#quoting-text)
+- [Quoting code](#quoting-code)
+- [📍 Supported color models](#📍-supported-color-models)
+- [Links](#links)
+- [📍 Section links](#📍-section-links)
+- [Relative links](#relative-links)
+- [🔫 Images](#🔫-images)
+- [Lists](#lists)
+- [Task Lists](#task-lists)
+- [Mentioning people and teams](#mentioning-people-and-teams)
+- [Referencing issues and pull requests](#referencing-issues-and-pull-requests)
+- [Referencing external resources](#referencing-external-resources)
+- [Uploading assets](#uploading-assets)
+- [Using emoji](#using-emoji)
+- [Paragraphs](#paragraphs)
+- [Footnotes](#footnotes)
+- [Hiding content with comments](#hiding-content-with-comments)
+- [Ignoring Markdown formatting](#ignoring-markdown-formatting)
+- [Disabling Markdown rendering](#disabling-markdown-rendering)
+- [Further reading](#further-reading)
+
+<!-- # Heading 1 -->
+
+<!-- ## Heading 2 -->
+
+<!-- ### Heading 3 -->
+
 # Basic writing and formatting syntax
 
 > Create sophisticated formatting for your prose and code on GitHub with simple syntax.
@@ -8,6 +39,7 @@
 ## Headings
 
 To create a heading, add one to six `#` symbols before your heading text. The number of `#` you use will determine the hierarchy level and typeface size of the heading.
+
 
 ### A third-level heading
 
@@ -19,9 +51,9 @@ To create a heading, add one to six `#` symbols before your heading text. The nu
 
 When you use two or more headings, GitHub automatically generates a table of contents that you can access by clicking <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-list-unordered" aria-label="The unordered list icon" role="img"><path d="M5.75 2.5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> within the file header.
 
-… [Headings](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
-
 ![GitHub automatically generates a clickable table of contents based on multiple headings within a file, allowing users to easily navigate to different sections.](https://docs.github.com/assets/cb-82878/mw-1440/images/help/repository/headings-toc.webp)
+
+… [GitHub Docs: Headings](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
 
 
 ## Styling text
@@ -38,6 +70,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 | Subscript              | `<sub> </sub>`     | None                                              | `<sub>This is a subscript text</sub>`    | <sub>This is a subscript text</sub>    |
 | Superscript            | `<sup> </sup>`     | None                                              | `<sup>This is a superscript text</sup>`  | <sup>This is a superscript text</sup>  |
 
+
 ### Bold
 
 **This is bold text**
@@ -45,6 +78,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 ```markdown
 **This is bold text**
 ```
+
 
 ### Italicized
 
@@ -54,6 +88,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 *This text is italicized*
 ```
 
+
 ### Striked
 
 ~~This was mistaken text~~
@@ -61,6 +96,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 ```markdown
 ~~This was mistaken text~~
 ```
+
 
 ### Extremely Important
 
@@ -70,6 +106,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 **This text is _extremely_ important**
 ```
 
+
 ### All Important
 
 ***All this text is important***
@@ -77,6 +114,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 ```markdown
 ***All this text is important***
 ```
+
 
 ### Subscripted
 
@@ -86,6 +124,7 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 <sub>This is a subscript text</sub>
 ```
 
+
 ### Superscripted
 
 <sup>This is a superscript text</sup>
@@ -93,6 +132,9 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 ```markdown
 <sup>This is a superscript text</sup>
 ```
+
+… [GitHub Docs: Styling text](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+
 
 
 ## Quoting text
@@ -121,7 +163,9 @@ In other words, adding two spaces at the end of each line in the cited text resu
 🌵 Tip: When viewing a conversation, you can automatically quote text in a comment by highlighting the text, then typing R. You can quote an entire comment by clicking , then Quote reply. For more information about keyboard shortcuts, see "Keyboard shortcuts."
 ```
 
-… [⌨ Keyboard shortcuts](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)  
+… [GitHub Docs: Keyboard shortcuts](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)  
+
+… [GitHub Docs: Quoting text](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)
 
 
 ## Quoting code
@@ -150,9 +194,11 @@ git commit
 ```
 ````
 
-For more information, see "[Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)."
+For more information, see "[GitHub Docs: Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)."
 
-If you are frequently editing code snippets and tables, you may benefit from enabling a fixed-width font in all comment fields on GitHub. For more information, see "[About writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor)."
+If you are frequently editing code snippets and tables, you may benefit from enabling a fixed-width font in all comment fields on GitHub. For more information, see "[GitHub Docs: About writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor)."
+
+… [GitHub Docs: Quoting code](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code)
 
 
 ## 📍 Supported color models
@@ -176,7 +222,7 @@ Here are the currently supported color models.
 · The visualization of the color is only supported in issues, pull requests, and discussions.
 ```
 
-… [Supported color models](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
+… [GitHub Docs: Supported color models](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
 
 
 ## Links
@@ -195,12 +241,13 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 This site was built using [GitHub Pages](https://pages.github.com/).
 ```
 
-
 ```
 🌵 Tip: GitHub automatically creates links when valid URLs are written in a comment. For more information, see "Autolinked references and URLs."
 ```
 
-[Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+[GitHub Docs: Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+
+… [GitHub Docs: Links](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links)
 
 
 ## 📍 Section links
@@ -208,6 +255,8 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 You can link directly to a section in a rendered file by hovering over the section heading to expose <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-link" aria-label="the link" role="img"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>.
 
 ![By hovering over a section heading in a rendered file, you can link directly to that specific section.](https://docs.github.com/assets/cb-55935/mw-1440/images/help/repository/readme-links.webp)
+
+… [GitHub Docs: Section links](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links)
 
 
 ## Relative links
@@ -226,23 +275,58 @@ GitHub will automatically transform your relative link or image path based on wh
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.  
 
+… [GitHub Docs: Section links](#https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links)
+
 
 ## 🔫 Images
 
-[Images](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
+You can display an image by adding `!` and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses `()`.
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
-GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see "[Uploading assets](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)."
+```markdown
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+```
 
+GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see "[GitHub Docs: Uploading assets](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)."
+
+```
+🌵 Tip: When you want to display an image that is in your repository, use relative links instead of absolute links."
+```
 
 Here are some examples for using relative links to display an image.
+
+| Context                                                     | Relative Link                                                          |
+|-------------------------------------------------------------|------------------------------------------------------------------------|
+| In a`.md` file on the same branch                           | `/assets/images/electrocat.png`                                        |
+| In a`.md` file on another branch                            | `/../main/assets/images/electrocat.png`                                |
+| In issues, pull requests and comments of the repository     | `../blob/main/assets/images/electrocat.png?raw=true`                   |
+| In a`.md` file in another repository                        | `/../../../../github/docs/blob/main/assets/images/electrocat.png`      |
+| In issues, pull requests and comments of another repository | `../../../github/docs/blob/main/assets/images/electrocat.png?raw=true` |
+
+```
+🌵 Note: The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
+```
+
+For more information, see "[Relative links](#relative-links)."
+
+
+### Specifying the theme an image is shown to
+
+You can specify the theme an image is displayed for in Markdown by using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature. We distinguish between light and dark color modes, so there are two options available. You can use these options to display images optimized for dark or light backgrounds. This is particularly helpful for transparent PNG images.
+
+For example, the following code displays a sun image for light themes and a moon for dark themes:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
+
+The old method of specifying images based on the theme, by using a fragment appended to the URL (#gh-dark-mode-only or #gh-light-mode-only), is deprecated and will be removed in favor of the new method described above.
+
+… [GitHub Docs: Images](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
+
 
 ## Lists
 
@@ -269,6 +353,7 @@ Here are some examples for using relative links to display an image.
 1. First list item
     - First nested list item
         - Second nested list item
+
 
 ## Task lists
 
@@ -297,6 +382,7 @@ For more information, see "[Configuring autolinks to reference external resource
 ## Uploading assets
 
 You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to issues, pull requests, comments, and .md files in your repository.
+
 
 ## Using emoji
 
